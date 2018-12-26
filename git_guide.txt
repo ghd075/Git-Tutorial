@@ -1,0 +1,18 @@
+저장소 : 하나의 소스가 저장되는 공간
+Public : 오픈소스
+Private : 비공개
+명령어프롬프트 창에서
+git : 깃에 대한 명령어 목록을 볼 수 있다.
+git --version : 깃 버젼확인
+git config --global user.name 네임명 :  깃 유저 네임 설정(전역)
+git config --global user.email 메일명 : 깃 유저 메일 설정(전역)
+git config --global --list 전역 설정 정보 조회
+git config --global color.ui "auto" 깃의 출력결과 색상 활성화하기
+mkdir /path/newDir
+cd /path/newDir
+git init
+새로운 저장소 초기화하기
+git clone <저장소url> 새로운 원격 저장소 추가하기
+git remote add <원격 저장소> <저장소 url> 새로운 원격 저장소 추가
+
+
